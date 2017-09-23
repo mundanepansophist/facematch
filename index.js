@@ -24,7 +24,6 @@ app.post('/data', function(req, res) {
         })
         res.send(filename);
     })
-    console.log(filename)
 })
 
 app.post('/rate', function(req, res) {
